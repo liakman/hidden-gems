@@ -22,7 +22,7 @@ import urllib.request, json
 from compute_wilson_score import computeWilsonScore
 
 # Boolean to switch between hidden gems and hidden hidden gems (yes, twice hidden)
-use_hidden_squared_gems_as_examples = False
+use_hidden_squared_gems_as_examples = True
 max_num_reviews_for_hidden_squared_gems = 150
 
 # Optional boolean to decide whether we want to compute the Wilson score by ourselves, instead of using SteamDB's scores
@@ -36,7 +36,7 @@ if use_hidden_squared_gems_as_examples:
     quantile_for_our_own_wilson_score = 0.8
 
 # Booleans to decide whether we want to filter out and filter in games based on their Steam tags
-filter_out_user_chosen_tags = False
+filter_out_user_chosen_tags = True
 filter_in_user_chosen_tags = False
 
 # Tags to filter out

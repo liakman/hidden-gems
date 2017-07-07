@@ -24,7 +24,7 @@ print_subset_of_top_games = True
 num_top_games_to_print = 1000
 
 # Boolean to switch the scoring method to any alternative which you might want to test.
-use_alternative_scoring_method = False
+use_alternative_scoring_method = True
 if use_alternative_scoring_method:
     assert( use_hidden_squared_gems_as_examples )
 
